@@ -1,0 +1,31 @@
+<link rel="stylesheet" href="__CDN__/assets/addons/dramas/libs/element/element.css">
+<link rel="stylesheet" href="__CDN__/assets/addons/dramas/libs/common.css">
+<style>
+    #recharge {
+        color: #444;
+        padding: 0 20px 30px;
+        background-color: #fff;
+    }
+
+    [v-cloak] {
+        display: none
+    }
+</style>
+<script src="__CDN__/assets/addons/dramas/libs/vue.js"></script>
+<script src="__CDN__/assets/addons/dramas/libs/element/element.js"></script>
+<script src="__CDN__/assets/addons/dramas/libs/moment.js"></script>
+<div id="recharge" v-cloak>
+    <el-form :model="rechargeForm" :rules="rules" ref="rechargeForm" label-width="100px" class="demo-rechargeForm">
+        <el-form-item v-if="rechargeType=='money'" :label="__('Recharge amount')" prop="money">
+            <el-input type="number" v-model="rechargeForm.money" :placeholder="__('Negative numbers are deductions')"></el-input>
+        </el-form-item>
+        <el-form-item :label="__('Remarks')">
+            <el-input v-model="rechargeForm.remarks"></el-input>
+        </el-form-item>
+    </el-form>
+    <div class="dialog-footer display-flex">
+        <div @click="submitForm" class="dialog-cancel-btn display-flex-c cursor-pointer">{{__('Cancel')}}</div>
+        <div @click="submitForm('yes','rechargeForm')" class="dialog-define-btn display-flex-c cursor-pointer">{{__('Ok')}}
+        </div>
+    </div>
+</div>

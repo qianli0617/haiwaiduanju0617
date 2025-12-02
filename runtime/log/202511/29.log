@@ -1,0 +1,1825 @@
+---------------------------------------------------------------
+[ 2025-11-29T00:06:15+08:00 ] 107.172.195.73 GET duanju.doukang.shop/
+[运行时间：0.117890s] [吞吐率：8.48req/s] [内存消耗：4,156.24kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.006008s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000895s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000928s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001645s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002307s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.029215s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001534s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000740s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.002315s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T00:06:26+08:00 ] 104.164.126.143 GET duanju.doukang.shop/
+[运行时间：0.044057s] [吞吐率：22.70req/s] [内存消耗：4,156.03kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000043s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002499s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000290s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000317s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000492s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001681s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013066s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001216s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000146s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000948s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T00:06:49+08:00 ] 104.164.126.143 GET duanju.doukang.shop/
+[运行时间：0.044003s] [吞吐率：22.73req/s] [内存消耗：4,156.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002477s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000299s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000326s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000486s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001639s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013134s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001294s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000181s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000955s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T01:44:58+08:00 ] 104.164.173.213 GET duanju.doukang.shop/
+[运行时间：0.044096s] [吞吐率：22.68req/s] [内存消耗：4,156.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002510s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000288s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000315s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000503s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001632s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.012969s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001330s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000149s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000963s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T01:44:59+08:00 ] 104.252.191.77 GET duanju.doukang.shop/
+[运行时间：0.043681s] [吞吐率：22.89req/s] [内存消耗：4,156.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002506s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000287s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000313s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000487s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001651s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013010s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001205s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000150s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000943s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T01:45:09+08:00 ] 104.164.173.213 GET duanju.doukang.shop/
+[运行时间：0.045393s] [吞吐率：22.03req/s] [内存消耗：4,156.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000042s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002471s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000334s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000369s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000488s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001612s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013662s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001350s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000147s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000949s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T07:56:09+08:00 ] 107.172.195.93 GET duanju.doukang.shop/
+[运行时间：0.179297s] [吞吐率：5.58req/s] [内存消耗：4,156.03kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000170s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.009837s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.003801s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003847s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.003117s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003486s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.036932s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001583s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000714s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.003128s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T07:56:13+08:00 ] 104.164.126.153 GET duanju.doukang.shop/
+[运行时间：0.044633s] [吞吐率：22.40req/s] [内存消耗：4,156.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000116s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002434s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000318s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000346s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000487s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001643s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013115s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001300s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000146s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000944s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T07:56:37+08:00 ] 107.172.195.93 GET duanju.doukang.shop/
+[运行时间：0.045226s] [吞吐率：22.11req/s] [内存消耗：4,156.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000110s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002498s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000291s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000318s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000488s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001610s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013406s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001505s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000151s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000960s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T09:44:27+08:00 ] 154.28.229.166 GET duanju.doukang.shop/
+[运行时间：0.045545s] [吞吐率：21.96req/s] [内存消耗：4,156.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000125s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002558s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000306s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000335s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000529s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001605s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.012978s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001205s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000143s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000919s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T09:44:27+08:00 ] 154.28.229.102 GET duanju.doukang.shop/
+[运行时间：0.044899s] [吞吐率：22.27req/s] [内存消耗：4,156.03kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000108s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002502s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000292s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000318s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000479s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001590s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013088s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001256s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000142s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000940s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T09:44:43+08:00 ] 154.28.229.102 GET duanju.doukang.shop/
+[运行时间：0.044590s] [吞吐率：22.43req/s] [内存消耗：4,156.03kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000117s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002468s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000287s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000313s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000478s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'sec-fetch-mode' => 'navigate',
+  'accept-language' => 'en-US,en;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-ch-ua' => 'Google Chrome";v="111", "Not(A:Brand";v="8", "Chromium";v="111',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001573s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013005s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001438s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000143s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000916s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:05+08:00 ] 111.7.100.20 GET duanju.doukang.shop/
+[运行时间：0.053592s] [吞吐率：18.66req/s] [内存消耗：4,153.34kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000155s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003431s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000422s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000461s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000563s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000021s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001608s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013304s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001474s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000163s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000953s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:05+08:00 ] 111.7.100.23 GET duanju.doukang.shop/
+[运行时间：0.044217s] [吞吐率：22.62req/s] [内存消耗：4,155.56kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000138s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002451s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000318s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000345s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000483s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001601s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.012971s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001182s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000144s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000908s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:08+08:00 ] 111.7.100.23 GET duanju.doukang.shop/addons/dramas/index/init?platform=H5
+[运行时间：0.148825s] [吞吐率：6.72req/s] [内存消耗：4,517.77kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000148s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003452s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000403s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000440s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000664s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => '',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'H5',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'init',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.005331s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.012283s ]
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001146s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:08+08:00 ] 111.7.100.21 GET duanju.doukang.shop/addons/dramas/index/lang_data?lang=en
+[运行时间：0.051544s] [吞吐率：19.40req/s] [内存消耗：4,527.27kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000122s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002533s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000294s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000322s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000510s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'lang' => 'en',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'lang_data',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002872s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.011692s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001131s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:08+08:00 ] 111.7.100.21 GET duanju.doukang.shop/addons/dramas/index/init?platform=H5
+[运行时间：0.068034s] [吞吐率：14.70req/s] [内存消耗：4,561.04kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000107s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002530s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000293s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000322s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000526s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'H5',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'init',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002706s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.027703s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001042s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:08+08:00 ] 111.7.100.23 GET duanju.doukang.shop/addons/dramas/index/lang_list
+[运行时间：0.084806s] [吞吐率：11.79req/s] [内存消耗：4,539.89kb] [文件加载：100]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000152s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003376s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000415s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000453s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000681s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'lang_list',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003682s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.023163s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001416s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:08+08:00 ] 111.7.100.23 GET duanju.doukang.shop/addons/dramas/category/index
+[运行时间：0.070408s] [吞吐率：14.20req/s] [内存消耗：4,525.77kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000167s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003336s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000391s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000428s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000651s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000034s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'dramas',
+  'controller' => 'category',
+  'action' => 'index',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003348s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.013988s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001130s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:08+08:00 ] 111.7.100.23 GET duanju.doukang.shop/addons/dramas/video/index?category_id=&type=&page=1&pagesize=10&platform=1
+[运行时间：0.066857s] [吞吐率：14.96req/s] [内存消耗：4,671.51kb] [文件加载：99]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000120s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002565s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000298s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000325s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000517s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '',
+  'type' => '',
+  'page' => '1',
+  'pagesize' => '10',
+  'platform' => '1',
+  'addon' => 'dramas',
+  'controller' => 'video',
+  'action' => 'index',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002523s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.012174s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001048s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:12+08:00 ] 111.7.100.20 GET duanju.doukang.shop/addons/dramas/index/init?platform=H5
+[运行时间：0.050429s] [吞吐率：19.83req/s] [内存消耗：4,546.59kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000123s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002566s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000294s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000321s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000497s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'H5',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'init',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002549s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.011536s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001029s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:12+08:00 ] 111.7.100.21 GET duanju.doukang.shop/addons/dramas/index/lang_list
+[运行时间：0.050651s] [吞吐率：19.74req/s] [内存消耗：4,524.94kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002355s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000281s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000308s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000482s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'lang_list',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002257s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.011328s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001011s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:12+08:00 ] 111.7.100.22 GET duanju.doukang.shop/addons/dramas/index/init?platform=H5
+[运行时间：0.048727s] [吞吐率：20.52req/s] [内存消耗：4,546.59kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002440s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000323s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000352s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000497s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'H5',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'init',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002353s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.011583s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001012s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:12+08:00 ] 111.7.100.23 GET duanju.doukang.shop/addons/dramas/index/lang_data?lang=en
+[运行时间：0.058060s] [吞吐率：17.22req/s] [内存消耗：4,527.28kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000023s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002447s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000291s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000318s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000530s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'lang' => 'en',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'lang_data',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002627s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.021279s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001026s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:12+08:00 ] 111.7.100.23 GET duanju.doukang.shop/addons/dramas/category/index
+[运行时间：0.051712s] [吞吐率：19.34req/s] [内存消耗：4,525.77kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000128s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002588s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000295s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000325s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000596s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'dramas',
+  'controller' => 'category',
+  'action' => 'index',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002589s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.011639s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001023s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T11:09:12+08:00 ] 111.7.100.23 GET duanju.doukang.shop/addons/dramas/video/index?category_id=&type=&page=1&pagesize=10&platform=1
+[运行时间：0.056158s] [吞吐率：17.81req/s] [内存消耗：4,671.51kb] [文件加载：99]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000113s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002519s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000286s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000312s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000512s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000025s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=fk698ongkqth3hveeen737nld8; think_var=en',
+  'accept-language' => 'zh-CN',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://duanju.doukang.shop/h5/',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'sign' => '',
+  'token' => '',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36',
+  'lang' => 'en',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '',
+  'type' => '',
+  'page' => '1',
+  'pagesize' => '10',
+  'platform' => '1',
+  'addon' => 'dramas',
+  'controller' => 'video',
+  'action' => 'index',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/duanju.doukang.shop/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002521s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.011634s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001025s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T12:46:51+08:00 ] 59.82.83.140 GET duanju.doukang.shop/
+[运行时间：0.044585s] [吞吐率：22.43req/s] [内存消耗：4,153.91kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002401s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000302s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000328s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000500s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.8883.104 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001450s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013106s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001267s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000155s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000963s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T12:46:52+08:00 ] 59.82.83.140 GET duanju.doukang.shop/
+[运行时间：0.043379s] [吞吐率：23.05req/s] [内存消耗：4,154.19kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002359s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000285s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000311s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000505s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=60s6pijglc67ee00n7km5mjtm6',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.3298.89 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001445s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.012961s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001495s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000145s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000958s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T16:30:12+08:00 ] 157.143.30.12 GET duanju.doukang.shop/
+[运行时间：0.043972s] [吞吐率：22.74req/s] [内存消耗：4,155.02kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002507s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000304s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000332s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000512s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Mobile Safari/537.36',
+  'accept-language' => 'en-US,en;q=0.9,de-CH;q=0.8,de;q=0.7,ca;q=0.6',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001552s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013064s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001209s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000142s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000950s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T19:13:18+08:00 ] 113.215.189.40 GET duanju.doukang.shop/
+[运行时间：0.045523s] [吞吐率：21.97req/s] [内存消耗：4,153.97kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002555s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000313s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000342s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000505s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.1428.185 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001544s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013480s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001247s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000142s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000930s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T19:13:18+08:00 ] 113.215.189.40 GET duanju.doukang.shop/
+[运行时间：0.042524s] [吞吐率：23.52req/s] [内存消耗：4,154.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002498s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000281s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000307s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000498s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=urn4omttblha827jedvoq7k16h',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.5971.128 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001504s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.012750s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001185s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000139s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000906s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T21:42:14+08:00 ] 149.57.180.143 GET duanju.doukang.shop/
+[运行时间：0.045357s] [吞吐率：22.05req/s] [内存消耗：4,155.24kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000111s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002467s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000291s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000316s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000493s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'en-US,en;q=0.5',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/120.0',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001615s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013471s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001341s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000151s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000963s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T21:43:09+08:00 ] 23.27.145.154 GET duanju.doukang.shop/
+[运行时间：0.044989s] [吞吐率：22.23req/s] [内存消耗：4,155.24kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000037s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002549s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000309s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000337s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000504s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'accept-language' => 'en-US,en;q=0.5',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux i686; rv:109.0) Gecko/20100101 Firefox/120.0',
+  'host' => 'duanju.doukang.shop',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001523s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013668s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001490s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000146s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000960s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T23:59:01+08:00 ] 113.215.189.38 GET duanju.doukang.shop/
+[运行时间：0.047449s] [吞吐率：21.08req/s] [内存消耗：4,153.97kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000115s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002524s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000302s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000330s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000526s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.9817.103 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001606s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.014065s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001408s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000158s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000990s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2025-11-29T23:59:01+08:00 ] 113.215.189.38 GET duanju.doukang.shop/
+[运行时间：0.043644s] [吞吐率：22.91req/s] [内存消耗：4,154.25kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.002509s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000296s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000322s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000487s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000016s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=sr7sao5timn9lgn9fiou928rim',
+  'connection' => 'keep-alive',
+  'host' => 'duanju.doukang.shop',
+  'accept-encoding' => 'gzip, x-gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.6852.92 Safari/537.36',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001511s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.013009s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.001449s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000146s ]
+[ info ] [ LANG ] /www/wwwroot/duanju.doukang.shop/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.000942s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/duanju.doukang.shop/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

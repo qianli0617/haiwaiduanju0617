@@ -1,0 +1,33 @@
+<?php
+                    
+return [
+    'Usable_id' => '充值套餐',
+    'Order_sn' => '訂單號',
+    'User_id' => '用戶',
+    'Usable' => '充值積分',
+    'Status' => '訂單狀態',
+    'Status -2' => '交易關閉',
+    'Status -1' => '已取消',
+    'Status 0' => '未支付',
+    'Status 1' => '已支付',
+    'Status 2' => '已完成',
+    'Total_fee' => '支付金額',
+    'Pay_fee' => '實際支付金額',
+    'Transaction_id' => '交易單號',
+    'Payment_json' => '交易原始數據',
+    'Remark' => '訂單備註',
+    'Pay_type' => '支付方式',
+    'Pay_type wechat' => '微信支付',
+    'Pay_type alipay' => '支付寶',
+    'Pay_type wallet' => '錢包支付',
+    'Pay_type score' => '積分支付',
+    'Pay_type cryptocard' => '卡密兌換',
+    'Pay_type system' => '管理員添加',
+    'Paytime' => '支付時間',
+    'Ext' => '附加欄位',
+    'Platform' => '平臺',
+    'Platform h5' => 'H5',
+    'Platform app' => 'APP',
+    'User.nickname' => '用戶昵稱',
+    'Usables.title' => '積分套餐'
+];

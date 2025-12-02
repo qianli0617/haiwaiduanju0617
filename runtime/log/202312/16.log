@@ -1,0 +1,576 @@
+---------------------------------------------------------------
+[ 2023-12-16T11:44:21+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/
+[运行时间：0.058881s] [吞吐率：16.98req/s] [内存消耗：4,155.08kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000038s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003292s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000387s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000420s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000673s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000021s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-dest' => 'document',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.5',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001976s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.017485s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.002701s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000212s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.001305s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hwdj.dyman.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T11:44:23+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/
+[运行时间：0.059565s] [吞吐率：16.79req/s] [内存消耗：4,155.80kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003321s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000411s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000448s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000646s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate, br',
+  'sec-fetch-dest' => 'document',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-site' => 'none',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.6099.28 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not_A Brand";v="8", "Chromium";v="120", "HeadlessChrome";v="120"',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002017s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.018084s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.002534s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000216s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.001212s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hwdj.dyman.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T11:44:25+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/addons/dramas/index/init?platform=H5&sslVerify=false
+[运行时间：0.130876s] [吞吐率：7.64req/s] [内存消耗：4,514.00kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000033s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003148s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000409s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000444s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000719s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=chj5b6vqpl5qefndfb34efn9o7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://hwdj.dyman.cn/h5/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sign' => '',
+  'token' => '',
+  'lang' => '',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.6099.28 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not_A Brand";v="8", "Chromium";v="120", "HeadlessChrome";v="120"',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'H5',
+  'sslVerify' => 'false',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'init',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/hwdj.dyman.cn/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003189s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.016144s ]
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001740s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T11:44:25+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/addons/dramas/index/lang_list?sslVerify=false
+[运行时间：0.091436s] [吞吐率：10.94req/s] [内存消耗：4,463.02kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000039s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.005563s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000699s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000762s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001132s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000058s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=chj5b6vqpl5qefndfb34efn9o7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://hwdj.dyman.cn/h5/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sign' => '',
+  'token' => '',
+  'lang' => '',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.6099.28 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not_A Brand";v="8", "Chromium";v="120", "HeadlessChrome";v="120"',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sslVerify' => 'false',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'lang_list',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/hwdj.dyman.cn/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.005503s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.020573s ]
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001388s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T11:44:26+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/addons/dramas/index/init?platform=H5&sslVerify=false
+[运行时间：0.065673s] [吞吐率：15.23req/s] [内存消耗：4,557.23kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003058s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000410s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000446s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000624s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000045s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=chj5b6vqpl5qefndfb34efn9o7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://hwdj.dyman.cn/h5/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sign' => '',
+  'token' => '',
+  'lang' => 'en',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.6099.28 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not_A Brand";v="8", "Chromium";v="120", "HeadlessChrome";v="120"',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'platform' => 'H5',
+  'sslVerify' => 'false',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'init',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/hwdj.dyman.cn/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003126s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.015268s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001332s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T11:44:26+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/addons/dramas/index/lang_data?lang=en&sslVerify=false
+[运行时间：0.087453s] [吞吐率：11.43req/s] [内存消耗：4,523.59kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.004174s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000539s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000585s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000881s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000036s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=chj5b6vqpl5qefndfb34efn9o7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://hwdj.dyman.cn/h5/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sign' => '',
+  'token' => '',
+  'lang' => 'en',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.6099.28 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not_A Brand";v="8", "Chromium";v="120", "HeadlessChrome";v="120"',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'lang' => 'en',
+  'sslVerify' => 'false',
+  'addon' => 'dramas',
+  'controller' => 'index',
+  'action' => 'lang_data',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/hwdj.dyman.cn/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.004821s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.021964s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001330s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T11:44:26+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/addons/dramas/category/index?sslVerify=false
+[运行时间：0.100004s] [吞吐率：10.00req/s] [内存消耗：4,539.77kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000041s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.004995s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000633s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000705s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001040s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000049s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=chj5b6vqpl5qefndfb34efn9o7',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://hwdj.dyman.cn/h5/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sign' => '',
+  'token' => '',
+  'lang' => 'en',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.6099.28 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not_A Brand";v="8", "Chromium";v="120", "HeadlessChrome";v="120"',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'sslVerify' => 'false',
+  'addon' => 'dramas',
+  'controller' => 'category',
+  'action' => 'index',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/hwdj.dyman.cn/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.004924s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.023808s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001620s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T11:44:26+08:00 ] 129.153.125.162 GET hwdj.dyman.cn/addons/dramas/video/index?category_id=&type=&page=1&pagesize=10&platform=1&sslVerify=false
+[运行时间：0.074436s] [吞吐率：13.43req/s] [内存消耗：4,670.43kb] [文件加载：99]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003290s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000416s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000452s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000640s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=chj5b6vqpl5qefndfb34efn9o7; think_var=en',
+  'accept-encoding' => 'gzip, deflate, br',
+  'referer' => 'https://hwdj.dyman.cn/h5/',
+  'sec-fetch-dest' => 'empty',
+  'sec-fetch-mode' => 'cors',
+  'sec-fetch-site' => 'same-origin',
+  'accept' => '*/*',
+  'sec-ch-ua-platform' => '"Linux"',
+  'sign' => '',
+  'token' => '',
+  'lang' => 'en',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/120.0.6099.28 Safari/537.36',
+  'sec-ch-ua-mobile' => '?0',
+  'sec-ch-ua' => '"Not_A Brand";v="8", "Chromium";v="120", "HeadlessChrome";v="120"',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'category_id' => '',
+  'type' => '',
+  'page' => '1',
+  'pagesize' => '10',
+  'platform' => '1',
+  'sslVerify' => 'false',
+  'addon' => 'dramas',
+  'controller' => 'video',
+  'action' => 'index',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /www/wwwroot/hwdj.dyman.cn/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003045s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.015162s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/addons/dramas/lang/en.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @addon_action_begin [ RunTime:0.001328s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T12:32:22+08:00 ] 223.113.128.176 GET hwdj.dyman.cn/
+[运行时间：0.057756s] [吞吐率：17.31req/s] [内存消耗：4,149.64kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003091s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000419s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000456s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000647s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'hwdj.dyman.cn',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001836s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.017151s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.002748s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000228s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.001306s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hwdj.dyman.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2023-12-16T12:32:33+08:00 ] 223.113.128.176 GET hwdj.dyman.cn/
+[运行时间：0.056766s] [吞吐率：17.62req/s] [内存消耗：4,149.70kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003202s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000387s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000421s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000654s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept' => '*/*',
+  'host' => 'hwdj.dyman.cn',
+  'user-agent' => 'curl/7.29.0',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001798s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.016940s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.002315s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000218s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.001233s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hwdj.dyman.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

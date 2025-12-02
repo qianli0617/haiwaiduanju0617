@@ -1,0 +1,47 @@
+---------------------------------------------------------------
+[ 2023-12-15T12:26:01+08:00 ] 172.104.51.254 GET hwdj.dyman.cn/
+[运行时间：0.067406s] [吞吐率：14.84req/s] [内存消耗：4,150.04kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run \addons\dramas\Dramas @app_init [ RunTime:0.003297s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @app_init [ RunTime:0.000433s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000474s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000700s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip',
+  'user-agent' => 'Go-http-client/1.1',
+  'host' => 'hwdj.dyman.cn',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001923s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @module_init [ RunTime:0.019903s ]
+[ info ] [ BEHAVIOR ] Run \addons\uploads\Uploads @upload_config_init [ RunTime:0.002718s ]
+[ info ] [ BEHAVIOR ] Run \addons\nkeditor\Nkeditor @config_init [ RunTime:0.000490s ]
+[ info ] [ LANG ] /www/wwwroot/hwdj.dyman.cn/public/../application/index/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run \addons\epay\Epay @action_begin [ RunTime:0.001374s ]
+[ info ] [ RUN ] app\index\controller\Index->index[ /www/wwwroot/hwdj.dyman.cn/application/index/controller/Index.php ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,117 @@
+<link rel="stylesheet" href="__CDN__/assets/addons/dramas/libs/element/element.css">
+<link rel="stylesheet" href="__CDN__/assets/addons/dramas/libs/common.css">
+<style>
+    #langDetail {
+        color: #444;
+        background: #fff;
+        padding: 0 20px 20px;
+    }
+
+    .category-image {
+        width: 90px;
+        height: 100px;
+        border: 1px solid #E6E6E6;
+        border-radius: 4px;
+        margin-right: 20px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .el-popover {
+        padding: 0;
+    }
+
+    .image-selected {
+        border-color: #7438D5;
+    }
+
+    .category-style-title {
+        padding-right: 20px;
+        flex-direction: column;
+    }
+
+    .dialog-cancel-btn {
+        color: #FF5959
+    }
+
+    img {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .category-style-title-container {
+        position: relative;
+    }
+
+    .category-style-tip {
+        /* margin-left: 6px; */
+        /* color: #DDDDDD;
+        position: absolute;
+        left: 6px; */
+        color: #DDDDDD;
+        position: absolute;
+        right: -20px;
+        top: 3px;
+    }
+
+    .popover-img {
+        width: 180px;
+        height: 294px;
+        border-radius: 1px;
+    }
+
+    .popover-img img {
+        height: 100%;
+    }
+
+    .selected-image-show {
+        position: absolute;
+        right: -2px;
+        bottom: -2px;
+        width: 20px;
+        height: 20px;
+    }
+    .category-tip{
+        margin-bottom: 20px;
+        border-radius: 5px;
+        background-color: #F1EBFA;
+        padding: 16px;
+    }
+
+    [v-cloak] {
+        display: none
+    }
+</style>
+<script src="__CDN__/assets/addons/dramas/libs/vue.js"></script>
+<script src="__CDN__/assets/addons/dramas/libs/element/element.js"></script>
+<script src="__CDN__/assets/addons/dramas/libs/moment.js"></script>
+<div id="langDetail" v-cloak>
+    <el-form :model="detailForm" :rules="rulesForm" ref="detailForm" label-width="108px" class="detail-form">
+        <div class="category-tip">
+            {{__('Exchange rate')}}
+            <li>1CNY = 10000</li>
+            <li>1USD = 7.1CNY = 71000</li>
+            <li>1HKD = 0.91CNY = 9100</li>
+        </div>
+        <el-form-item :label="__('Lang')" prop="lang">
+            <el-input type="input" v-model="detailForm.lang" disabled size="small"></el-input>
+        </el-form-item>
+        <el-form-item :label="__('Lang_cn')" prop="lang_cn">
+            <el-input type="input" v-model="detailForm.lang_cn" size="small"></el-input>
+        </el-form-item>
+        <el-form-item :label="__('Nation_code')" prop="nation_code">
+            <el-input type="input" v-model="detailForm.nation_code" size="small"></el-input>
+        </el-form-item>
+        <el-form-item :label="__('Currency')" prop="currency">
+            <el-input type="input" v-model="detailForm.currency" size="small"></el-input>
+        </el-form-item>
+        <el-form-item :label="__('Exchange rate')" prop="exchange_rate">
+            <el-input type="number" :min="1" v-model="detailForm.exchange_rate" size="small"></el-input>
+        </el-form-item>
+    </el-form>
+    <div class="dialog-footer display-flex">
+        <div v-if="detailForm.lang != 'zh-cn'" @click="deletelang" class="dialog-cancel-btn display-flex-c cursor-pointer">
+            {{__('Delete')}}</div>
+        <div @click="submitForm('detailForm')" class="dialog-define-btn display-flex-c cursor-pointer">{{__('Update')}}</div>
+    </div>
+</div>

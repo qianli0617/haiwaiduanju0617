@@ -1,0 +1,31 @@
+<?php
+                    
+return [
+    'Lang id' => '語言',
+    'Name' => '分類名稱',
+    'Pid' => '上級分類',
+    'Image' => '分類圖片',
+    'Custom' => '自定義組',
+    'Description' => '分類描述',
+    'Style' => '分類樣式',
+    'Style 1' => '一級分類',
+    'Style 2' => '二級分類',
+    'Style 3' => '三級分類',
+    'Type' => '分類類型',
+    'Type video' => '視頻',
+    'Type year' => '年份',
+    'Type area' => '地區',
+    'Category' => '分類',
+    'Please add or select the main category first' => '請先添加或選擇主分類',
+    'Classification name not filled in, cannot be saved and updated' => '分類名稱未填寫不可保存並更新',
+    'There is no data to submit' => '沒有需要提交的數據',
+    'Please delete the subcategory data first' => '請先删除子分類數據',
+    'Please select a classification language' => '請選擇分類語言',
+    'Please select a classification type' => '請選擇分類類型',
+    'Please enter the category name' => '請輸入分類名稱',
+    'Please enter classification weight' => '請輸入分類權重',
+    'Delete cancel' => '已取消删除',
+    'This operation will delete all relevant data for this category. Do you want to continue?' => '此操作將删除該分類的所有相關資料，是否繼續？',
+    'Append' => '追加分類',
+    'Save&Update' => '保存&更新'
+];

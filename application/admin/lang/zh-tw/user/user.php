@@ -1,0 +1,30 @@
+<?php
+                    
+return [
+    'Id' => 'ID',
+    'Group_id' => '組別ID',
+    'Username' => '用戶名',
+    'Nickname' => '昵稱',
+    'Password' => '密碼',
+    'Salt' => '密碼鹽',
+    'Email' => '電子郵箱',
+    'Mobile' => '手機號',
+    'Avatar' => '頭像',
+    'Level' => '等級',
+    'Gender' => '性別',
+    'Male' => '男',
+    'FeMale' => '女',
+    'Birthday' => '生日',
+    'Bio' => '格言',
+    'Score' => '積分',
+    'Successions' => '連續登入天數',
+    'Maxsuccessions' => '最大連續登入天數',
+    'Prevtime' => '上次登錄時間',
+    'Logintime' => '登入時間',
+    'Loginip' => '登入IP',
+    'Loginfailure' => '失敗次數',
+    'Joinip' => '加入IP',
+    'Jointime' => '加入時間',
+    'Token' => 'Token',
+    'Leave password blank if dont want to change' => '不修改密碼請留空'
+];
